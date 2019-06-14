@@ -39,4 +39,21 @@
   403  curl --silent --request GET --url https://api.thecatapi.com/v1/images/search
   404  curl --silent --request GET --url https://cdn2.thecatapi.com/images/e7i.jpg
   405  history
+  406  clear
+  407  brew install jq
+  408  sudo apt install jq
+  409  curl --silent --request GET --url 'https://api.thecatapi.com/v1/images/search?limit=3' | jq
+  410  cd fujiwara/
+  411  cd sample-web-server/
+  412  curl --silent --request GET --url 'https://api.thecatapi.com/v1/images/search?limit=3' > thecat.json
+  413  git add .
+  414  git commit -m '6/14 課題'
+  415  git push -u origin master
+  416  history
+```
+
+
+```
+
+
 ```
